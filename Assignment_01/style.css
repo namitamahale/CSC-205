@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ font-family: Garamond;
+ text-align: left;
+}
+
+h3 {
+ color: #008080;
+ font-family: Garamond;
+ font-size: 100%;
+}
+
+.bg {
+font-size: 100%;
+background-color :#FFD700;
+width:100%;
+height:30%;
+padding: 9px 10px;
+text-align: center;
+}
+
+.button {
+  font-family: vardana;
+  border: none;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 98%
+  margin: 50px 20px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #008080;} 
+
+p1 {
+  text-align: center
+  font-size: 102%;
+  color:#008080;
+}
+
+sup{
+ vertical-align: 1em;
+ font-size: smaller;
+}
+
+sub {
+ font-size: 50px;
+}
+
+.container2{
+ padding-left : 0px;
+ padding-right : 0px;
+ padding-top : 0px;
+ float: left;
+ width: 25%;
+ border-left : 1px solid darkgrey;
+ border-top : 1px solid darkgrey;
+ border-bottom : 1px solid darkgrey;
+
+}
+.container3 {
+ padding-left : 10px;
+ padding-right : 10px;
+}
+
+.column {
+ padding-left : 20px;
+ padding-right : 20px;
+ padding-top : 0px;
+ float: left;
+ width: 25%;
+ border-left : 1px solid darkgrey;
+ border-top : 1px solid darkgrey;
+ border-bottom : 1px solid darkgrey;
+
+}
+

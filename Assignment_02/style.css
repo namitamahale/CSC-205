@@ -1,0 +1,105 @@
+* {
+background : dark gery;
+padding: 6px;
+  box-sizing: border-box;
+  font-family: Garamond;
+  text-align: left;
+  color:dark brown;
+}
+
+marquee{
+direction:left;
+color: white;
+}
+
+ul.a {
+  font-size:20px;
+  list-style-type: circle; 
+}
+
+ol.b {
+  font-size:19px;
+  list-style-type: square;
+}
+
+h1{
+background-color: #009999;
+ font-size:30px;
+text-decoration: underline;
+ font-weight: bold;
+ text-color: #660000;
+ text-align:center;
+}
+
+.h1{ 
+font-size:40px;
+font-weight: bold;
+text-color: #660000;
+text-align:center;
+
+}
+
+h4{
+text-align:center;
+}
+
+p {
+  font-size:22px;
+   font-weight: bold;
+  text-color: #660000;
+}
+
+a {
+  color:#008080;
+}
+
+iframe {
+backgroud color: white;
+width : 100%;
+height :300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+ background-color: #008080;
+  padding: 8px;
+  text-align: center;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  background-color: #008080;
+  padding: 3px;
+  text-align: center;
+
+}
+
+img {
+width:40%; 
+height:30%;
+}

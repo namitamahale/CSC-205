@@ -75,6 +75,7 @@ sub {
  float: left;
  width: 25%;
  border-left : 1px solid darkgrey;
+ border-right:1px solid darkgrey;
  border-top : 1px solid darkgrey;
  border-bottom : 1px solid darkgrey;
 

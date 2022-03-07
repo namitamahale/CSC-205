@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+<head>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left" >
+    
+<h2>Student Registration Form</h2>
+<br>
+<div>
+  <form name="myform" onsubmit="return myFun()">
+    <label for="fname">First Name :</label>
+    <input type="text" id="fname" name="firstname" value="" placeholder="Your First name.."><span id="name"> </span><br><br>
+
+    <label for="lname">Last Name :</label>
+    <input type="text" id="lname" name="lastname" value="" placeholder="Your Last name.."><span id="last"> </span><br><br>
+
+    <label for="phoneno">Phone No. :</label>
+    <input type="text" id="num" name="num"  maxlength="10" value="" placeholder="Your Phone number.."><span id="phoneno"> </span><br><br>
+    
+    <label for="email">Email Id : </label>&nbsp&nbsp
+    <input type="email" id="email" name="email" value="" placeholder="Your Email-id.." ><span id="Emessage"> </span><br><br>
+
+   <label for="gender">Gender :</label>
+   <input type="radio" id="male" value="Male" name="gender">
+   <label for="gender">Male</label>
+   <input type="radio" id="female" name="gender" value="Female"><span id="Gmessage"></span>
+   <label for="gender">Female</label><br><br>
+    
+  
+   <label for="DOB">Date Of Birth : </label>
+   <input type="date" id="dob" name="dob" value=""><span id="Dmessage"></span><br><br>
+
+   <label for ="addr"> Address :</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <input type="text" name="address" id="address" value="" placeholder="Your Address.."><span id="Amessage"></span>
+   <br><br><br>
+
+  
+   <input type="button" class="button button2" id="submit" value="Submit">
+  
+   <button class="button button2" type="reset">Reset</button>
+
+  </form>
+</div>
+  </div>
+  
+<div class="column right"> 
+    <h2>Registration List</h2>
+<br>    
+<table id="table">
+  <tr>
+ 
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Phone No.</th>
+    <th>Email Id</th>
+    <th>Gender</th>
+    <th>Date Of Birth</th>
+    <th>Address</th>
+   
+  </tr>
+
+</table>
+
+  </div>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>

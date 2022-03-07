@@ -1,0 +1,118 @@
+body {
+background-color:#ffffe6;
+
+}
+
+h2{
+  text-align:center;
+  text-decoration: underline;
+  color: brown;
+  font-weight:bold;
+  font-family:Monotype Corsiva;
+  font-size: 35px;
+}
+
+
+input[type=text], select {
+  width: 50%;
+  padding: 7px 9px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 50%;
+  padding: 7px 9px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+} 
+
+input[type=date], select {
+  width: 50%;
+  padding: 7px 9px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 1px 1x;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: brown; 
+  color: black; 
+  border: 2px solid #d9b38c;
+  margin:40px;
+}
+
+.button1:hover {
+  background-color: #d9b38c;
+  color: white;
+}
+
+.button2 {
+  background-color: brown; 
+  color: black; 
+  border: 2px solid #d9b38c;
+  margin: 40px;
+}
+
+.button2:hover {
+  background-color: #d9b38c;
+  color: white;
+}
+div {
+  background-color:#ffffe6;
+  padding: 0px 10px 10px 10px;
+ 
+}
+.column {
+ float: left;
+}
+
+.left {
+height: 100%;
+width: 45%;
+border-right:2px solid black;
+}
+
+.right {
+height: 100%;
+ width: 44%;
+}
+table, td, th {  
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 120%;
+}
+
+th, td {
+  padding: 5px;
+}.
+
+#name
+{
+ color: red; 
+}

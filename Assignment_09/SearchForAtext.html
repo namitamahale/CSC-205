@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+    
+        <p id="text"> Does a computer generate these paragraphs?
+No! All of the paragraphs in the generator are written by humans, not computers. When first building this generator we thought about using computers to generate the paragraphs, but they weren't very good and many times didn't make any sense at all. We therefore took the time to create paragraphs specifically for this generator to make it the best that we could.
+
+Can I contribute random paragraphs?
+Yes. We're always interested in improving this generator and one of the best ways to do that is to add new and interesting paragraphs to the generator. If you'd like to contribute some random paragraphs, please contact us.
+
+How many words are there in a paragraph?
+There are usually about 200 words in a paragraph, but this can vary widely. Most paragraphs focus on a single idea that's ex</p>
+              <div class="s">
+            <input type="search" name="search" id="search" placeholder="search for word">
+                 <button type="submit" name="button" id="btn" onclick="findText()">Search</button>
+                 </div>
+             <div class="fi">
+                 <fieldset class="#" id="fieldset">
+                  <legend>Parameter</legend>
+                  <label for="checkbox">Case insensitive</label>
+                  <input type="checkbox" name="checkbox1" id="ch1">
+                   <label for="checkbox2">Multi-Search</label>
+                  <input type="checkbox" name="checkbox2" id="ch2">
+              </fieldset>
+              </div>
+              <div class="f1">
+              <fieldset>
+                  <legend>Mode</legend>
+                <input type="radio" name="radio" id="r1">
+                <label for="radio1">Search text</label>
+                <input type="radio" name="radio" id="r2" onchange="rExp()">
+                <label for="radio2"  value="regular">Search Regular expression</label>
+              </fieldset>
+              </div>
+              </div>
+        <script src="reqularExp.js" async defer></script>
+
+    </body>
+</html>
